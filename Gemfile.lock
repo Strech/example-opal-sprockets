@@ -1,4 +1,5 @@
 GEM
+  remote: https://rubygems.org/
   specs:
     hike (1.2.3)
     opal (0.8.0)
@@ -6,6 +7,10 @@ GEM
       sourcemap (~> 0.1.0)
       sprockets (~> 3.1)
       tilt (>= 1.4)
+    opal-browser (0.2.0)
+      opal
+      paggio
+    paggio (0.2.6)
     rack (1.6.4)
     sourcemap (0.1.1)
     sprockets (3.4.0)
@@ -17,6 +22,7 @@ PLATFORMS
 
 DEPENDENCIES
   opal
+  opal-browser
 
 BUNDLED WITH
-   1.10.6
+   1.12.5

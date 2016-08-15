@@ -1,4 +1,5 @@
 require 'opal'
+require 'opal-browser'
 
 run Opal::Server.new { |s|
   s.append_path 'app'
@@ -6,4 +7,3 @@ run Opal::Server.new { |s|
   s.source_map_enabled
   s.main = 'application'
 }
-
